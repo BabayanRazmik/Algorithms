@@ -11,7 +11,7 @@ namespace Algorithms
         public int? binary_search(int[] arr, int number)
         {
             int start = 0;
-            int end = arr.Length;
+            int end = arr.Length - 1;
             int mid = 0;
             int midNumber = 0;
 
